@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: transparent; 
+    position: absolute;
+  
+    width: 100%;
+    z-index: 2; 
+  }
+  
+  .navbarLogo {
+    display: flex;
+  }
+  
+  .logoImage {
+    width: 90px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbarMenu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbarMenuItem {
+    margin-right: 30px;
+    
+    text-decoration: none;
+    color: white; 
+  }
+  
+  .enquiryButton {
+    background-color:#0ea57a; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width:auto;
+    border-radius: 10px; 
+    
+  }
+  
+  

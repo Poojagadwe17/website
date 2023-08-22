@@ -1,0 +1,32 @@
+.homeSection {
+    position: relative;
+  }
+  
+  .backgroundImage {
+    position:absolute;
+   
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    transform: scale(1);
+    background-position: center;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 100px 0;
+    text-align: center;
+  }
+  .centerImageContainer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  
+  .centerImage {
+    max-width: 30%; 
+  }

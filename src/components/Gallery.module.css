@@ -1,0 +1,84 @@
+.galleryContainer {
+    text-align: center;
+    margin-top: 10px;
+    margin-left:80px ;
+    margin-right: 80px;
+}
+
+.heading {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #00E5A1;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.subHeading {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 64px;
+    color: Black;
+    font-family: 'Gabriela';
+}
+
+.imageGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.galleryItem {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-left: 1px solid #ccc; 
+    margin-left: 20px; 
+}
+
+
+.galleryItem:nth-child(2),
+.galleryItem:nth-child(4) {
+    margin-top: 90px; 
+}
+
+.galleryItem:nth-child(1),
+.galleryItem:nth-child(3) {
+    margin-bottom: 50px; 
+}
+
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.imageMap {
+    position:relative;
+    top: -20px; 
+
+    transform: translateX(-50%);
+}
+
+.imageNumber {
+    font-size: 24px;
+    color: #00E5A1;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.imageHeading {
+    font-size: 16px;
+    margin-left: 110px; 
+    color: Black;
+   
+}
+
+.imageText {
+    font-size: 10px;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}

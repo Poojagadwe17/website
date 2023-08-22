@@ -1,0 +1,115 @@
+.contactContainer {
+  background-color: #1a2440;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.formContainer {
+  margin-left: 40px;
+  flex: 1;
+  padding: 20px;
+
+}
+
+.formContainer  {
+  font-size: 24px;
+  color: #fff; 
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  color: #fff; 
+  margin-top: 10px;
+}
+
+
+.buttonContainer {
+  display: flex;
+  margin-right: 50px;
+  justify-content: center; 
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #fff; 
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fff;
+  width: 80%; 
+}
+
+input::placeholder
+ {
+  color: #fff;
+}
+
+button {
+  background-color: #00e5a1;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  width:100px
+}
+
+.imageContainer {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+ 
+
+
+.heading {
+  font-family: 'Gabriela';
+  font-size: 50px;
+  color: #fff;
+  margin:0;
+  text-align: left;
+  margin-bottom: 40px;
+  
+}
+
+.subHeading {
+  text-align: left;
+  font-family: 'Poppins';
+  font-size: 12px;
+  color:white;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+
+.iconInput {
+  position: relative; 
+}
+
+.iconInput input {
+  margin-right: 50px;
+  padding-left: 40px; 
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 15px; 
+}

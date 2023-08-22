@@ -1,0 +1,12 @@
+
+.main-container {
+  scroll-behavior: smooth;
+  overflow-y: scroll; /* Add scroll behavior only when content overflows */
+}
+
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
+

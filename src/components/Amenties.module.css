@@ -1,0 +1,83 @@
+.amenitiesContainer {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .heading {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color:#00E5A1;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .subHeading {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    color: Black;
+    font-family: 'Gabriela';
+  }
+  
+
+
+
+.amenitiesGrid {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+  }
+  
+  .amenityItem {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 27px;
+    height: 27px;
+  }
+
+  .iconBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color:#ebfaff; 
+    border-radius: 50%; 
+}
+  
+  .amenityDetails {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .amenityHeading {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .amenityText {
+    font-size: 10px;
+    color: gray;
+    margin: 5px 0;
+  }
+
+  .backgroundImage {
+    background-size: cover;
+    background-position: center;
+    height: 50vh; 
+    width: 100%;
+    position: relative;
+    top: 50%; 
+    left: 0;
+    z-index: -1; 
+}

@@ -1,0 +1,101 @@
+.footerContainer {
+    background-color:#f3f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    height: 100vh;
+  }
+
+  h1{
+    color: black;
+    font-family: 'Gabriela';
+    font-size: 25.5px;
+   text-align: center;
+  }
+
+  .iconColumn {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around; 
+    margin-top: 20px;
+  }
+  
+  .iconImageContainer {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .greenIcon {
+    background-color: #00e5a1; 
+  }
+  
+  .whiteIcon {
+    background-color: white; 
+  }
+  
+  
+  .iconImage {
+    width: 30px;
+    height: 30px;
+    color: white;
+    
+   
+  }
+  .ImageIcon {
+    width: 40px;
+    height: 40px;
+    color: white;
+    
+   
+  }
+
+  .callImage {
+    width: 70px;
+    height: 70px;
+    background-color: #1a2440;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin: 10px auto;
+  }
+
+ 
+  
+  .contactNumber {
+    font-size: 93.18px;
+    margin-top: 10px;
+    font-family: 'Gabriela';
+    color:black;
+  }
+  
+  
+  
+  .logo {
+    width: 100px;
+    height: auto;
+    margin-top: 50px;
+    color: black;
+    margin-left: 80px;
+  }
+  
+  .logoText {
+    font-size: 16px;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  .logoContainer{
+    margin-top: 65px;
+  }
